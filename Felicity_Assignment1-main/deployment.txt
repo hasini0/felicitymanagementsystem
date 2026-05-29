@@ -1,0 +1,7 @@
+# Felicity Event Management System — Deployment
+
+## Frontend URL
+https://felicity-assignment1.vercel.app/
+
+## Backend API URL
+https://felicity-assignment1.onrender.com

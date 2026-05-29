@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0a0a0a;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Global dark theme overrides for consistency */
+.dark-card {
+  @apply bg-gradient-to-br from-dark-100 to-black border border-primary-900 rounded-lg shadow-xl hover:shadow-primary-900/50 transition-all;
+}
+
+.dark-page {
+  @apply ml-64 pt-16 min-h-screen bg-gradient-to-br from-black via-dark-500 to-black;
+}
+
+.neon-title {
+  text-shadow: 0 0 5px #dc2626, 0 0 10px #dc2626;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px black inset !important;
+  -webkit-text-fill-color: white !important;
+  box-shadow: 0 0 0 30px black inset !important;
+  background-color: black !important;
+}
+
+input {
+  background-color: black !important;
+  color: white !important;
+}

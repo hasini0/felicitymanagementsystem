@@ -1,0 +1,20 @@
+node_modules/
+.env
+.env.local
+.env.production
+.env.development
+*.log
+.DS_Store
+build/
+dist/
+.vscode/
+.idea/
+
+# Uploaded files (may contain large/sensitive data)
+backend/uploads/
+
+# React build cache
+frontend/.cache/
+
+# OS files
+Thumbs.db
